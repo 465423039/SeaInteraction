@@ -1,0 +1,71 @@
+@media only screen and (max-width: 960px) {
+
+	.navbar-brand .iconfont {
+		width: 32px;
+		height: 22px;
+		margin-top: 6px;
+	}
+
+	.top-nav-collapse .navbar-brand .iconfont {
+		background-position-y: -24px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.navbar {
+		background-color: #000;
+	}
+
+	.navbar-custom,
+	.navbar-brand {
+		padding: 0;
+		padding-left: 10px;
+	}
+
+	.top-nav-collapse {
+		padding: 0 !important;
+	}
+
+	.top-nav-collapse .navbar-brand {
+		position: relative;
+		top: 10px;
+		left: 0;
+	}
+
+	.navbar-brand .iconfont {
+		width: 56px;
+		height: 36px;
+		margin-top: 0;
+	}
+
+	.top-nav-collapse .navbar-brand .iconfont {
+		background-position-y: -43px;
+	}
+
+	.navbar-brand .logozi {
+		margin-top: 3px;
+	}
+
+	.intro,
+	.facts-content,
+	.services-content,
+	.testimonial-wrap {
+		background-size: 200% 200%;
+	}
+
+	.staff-content {
+		width: 250px;
+		margin: 0 auto 40px;
+	}
+
+	.portfoliolist>div {
+		width: 100%;
+	}
+
+	.portfolio-main .filters li {
+		float: none;
+	}
+}

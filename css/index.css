@@ -1,0 +1,660 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑", "Arial Unicode MS";
+	color: #fff;
+	background-color: #000;
+	position: relative;
+}
+
+.body {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+h3 {
+	line-height: 24px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	color: #222;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.navbar-custom {
+	padding: 20px 0;
+	border-bottom: 0;
+	margin-bottom: 0;
+	background-color: transparent;
+	transition: all 1s ease;
+}
+
+.navbar-custom a {
+	color: #fff;
+}
+
+.navbar-custom .navbar-toggle {
+	margin: 10px;
+	padding: 8px 6px;
+	font-size: 16px;
+	color: #bbb;
+}
+
+.navbar-toggle .icon-bar {
+	width: 14px;
+	background-color: #bbb;
+}
+
+.navbar-brand .iconfont {
+	display: inline-block;
+	width: 56px;
+	height: 36px;
+	margin-top: -2px;
+	margin-right: 2px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+}
+
+.navbar-brand .logozi {
+	float: right;
+	font-size: 12px;
+}
+
+.navbar-brand .logozi b {
+	font-size: 20px;
+	position: relative;
+	top: 8px;
+	left: 0;
+}
+
+.navbar-custom .top-menu {
+	margin-top: 20px;
+	transition: all 500 ease;
+}
+
+.navbar-nav .page-scroll {
+	padding: 0 10px;
+}
+
+.navbar-nav .page-scroll a {
+	padding: 5px 0 3px;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	background-color: transparent !important;
+}
+
+.navbar-nav .page-scroll a:hover,
+.navbar-nav .active a {
+	border-color: #fff;
+}
+
+.navbar-nav .active a {
+	transition: all 2s ease;
+}
+
+.top-nav-collapse {
+	margin: -9px auto;
+	padding: 4px 0 14px 0 !important;
+	border: none;
+	background-color: #fff !important;
+}
+
+.top-nav-collapse a {
+	color: #000;
+}
+
+.top-nav-collapse .page-scroll a:hover,
+.top-nav-collapse .navbar-nav .active a {
+	border-color: #000;
+}
+
+.top-nav-collapse .navbar-brand .iconfont {
+	background-position-y: -43px;
+}
+
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 350px 0 330px;
+	background: url(../images/bg/01.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	background: url(../images/overlay.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.flexslider {
+	margin: 0px;
+	position: relative;
+	z-index: 900;
+}
+
+.flexslider .slides li {
+	display: none;
+	width: 100%;
+	margin-right: -100%;
+	float: left;
+	position: relative;
+}
+
+.fadeIn {
+	animation-name: fadeIn;
+}
+
+.flexslider .slides .active {
+	display: list-item !important;
+	animation: fadeIn 2s both;
+}
+
+.brand-heading {
+	margin: 0px;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.line {
+	width: 80px;
+	height: 1px;
+	margin: 25px auto;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.flexslider li p {
+	width: 65%;
+	line-height: 22px;
+	margin: 20px auto 70px;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	color: #f1f1f1;
+}
+
+.intro-text {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0px;
+}
+
+.yah {
+	font-family: "微软雅黑";
+	font-weight: normal;
+}
+
+.welcome-content {
+	padding: 130px 0;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.bounceIn {
+	animation-name: bounceIn;
+}
+
+.line1 {
+	width: 80px;
+	height: 1px;
+	margin: 25px auto;
+	background: #000;
+	position: relative;
+	z-index: 1;
+}
+
+.welcome-text p {
+	width: 85%;
+	line-height: 22px;
+	margin: 30px auto 0;
+	color: #3d3d3d;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.yahei {
+	font-family: "微软雅黑";
+	color: #666;
+}
+
+.btn1 {
+	display: table;
+	padding: 11px 44px;
+	border: 2px solid #000;
+	margin: 45px auto 0;
+	color: #000;
+	font-size: 14px !important;
+	font-weight: 600;
+	font-family: "微软雅黑", "Arial Unicode MS";
+	text-transform: uppercase;
+	text-decoration: none !important;
+}
+
+.btn1:hover {
+	border-color: #888;
+	color: #888;
+	transition: all 0.3s ease-in-out;
+}
+
+.facts-content {
+	padding: 130px 0;
+	background: #313131 url(../images/bg/04.jpg) no-repeat center;
+	background-size: 100% auto;
+	position: relative;
+	z-index: 1;
+}
+
+.facts-content h3 {
+	margin-bottom: 80px;
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.fadeInRight {
+	animation-name: fadeInRight;
+}
+
+.fact-info {
+	margin-bottom: 25px;
+}
+
+.fact-info h4 {
+	line-height: 24px;
+	margin: 0px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.fact-info h4 em {
+	font-style: normal;
+}
+
+.fact-info h4 span {
+	font-weight: 700;
+}
+
+.line2 {
+	width: 65px;
+	height: 1px;
+	margin: 25px auto 35px;
+	background: #989898;
+}
+
+.fact-info p {
+	color: #f1f1f1;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.team-content {
+	padding: 130px 0;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.fade-text {
+	margin-bottom: 90px;
+}
+
+.fade-text p {
+	width: 85%;
+	line-height: 22px;
+	margin: 30px auto 0;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	color: #3d3d3d;
+}
+
+.rollIn {
+	animation-name: rollIn;
+}
+
+.staff-img {
+	position: relative;
+}
+
+.staff-img img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.staff-content h4 {
+	text-transform: uppercase;
+	line-height: 25px;
+	margin: 36px 0 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #222;
+}
+
+.staff-content h4 span {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.services-content {
+	padding: 130px 0;
+	background: #313131 url(../images/bg/05.jpg) no-repeat center;
+	background-size: 100% auto;
+	position: relative;
+	z-index: 1;
+}
+
+.service-content:hover {
+	cursor: pointer;
+}
+
+.service-content:hover img {
+	transform: scale(0.8);
+}
+
+.services-content h3,
+.services-content p {
+	color: #fff;
+}
+
+.line3 {
+	width: 80px;
+	height: 1px;
+	margin: 25px auto;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.service-content-inner {
+	padding: 30px 0;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+.service-content-inner img {
+	display: table;
+	margin: 0 auto 37px;
+	transition: all 0.3s ease-in-out;
+}
+
+.service-content-inner h4 {
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.portfolio-wrap {
+	padding: 130px 0;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.portfolio-wrap .fadeIn {
+	margin-bottom: 0;
+}
+
+.portfolio-main .filters {
+	display: table;
+	margin: 10px auto 40px;
+}
+
+.portfolio-main .filters li {
+	margin: 0 5px;
+	padding: 5px 12px;
+	border: 2px solid #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	color: #222;
+	float: left;
+	cursor: pointer;
+}
+
+.portfolio-main .filters .active {
+	border-color: #222;
+}
+
+.portfoliolist {
+	margin-bottom: 60px;
+}
+
+.portfoliolist>div {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	opacity: 1;
+}
+
+.flipInY {
+	animation-name: flipInY;
+}
+
+.portfolio-wrapper {
+	overflow: hidden;
+	position: relative !important;
+	cursor: pointer;
+}
+
+.portfolio-wrapper img {
+	max-width: 100%;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+.portfolio-wrapper:hover img {
+	transform: scale(1.5);
+}
+
+.portfolio-wrapper:hover .overlay1 {
+	opacity: 1;
+}
+
+.portfolio-wrapper .overlay1 {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.portfolio-wrapper .overlay-text {
+	display: table-cell;
+	width: 176px;
+	height: 44px;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	margin: auto;
+	font-weight: 600;
+	text-transform: uppercase;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.portfolio-wrapper .overlay-text:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.testimonial-wrap {
+	padding: 130px 0;
+	background: #313131 url(../images/bg/06.jpg) no-repeat center;
+	background-size: 100% auto;
+	position: relative;
+	z-index: 1;
+}
+
+.testimonial-wrap .fade-text {
+	margin-bottom: 0;
+}
+
+.testimonial-wrap h3 {
+	color: #fff;
+}
+
+.testimonial-wrap .flexslider .slides li {
+	display: list-item;
+}
+
+.testimonial-wrap .flexslider .slides .client-img {
+	display: block;
+	max-width: 100%;
+	margin: 45px auto;
+	width: auto !important;
+}
+
+.testimonial-wrap .flexslider .slides .sign {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.testimonial-wrap .flexslider .slides .sign span {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.contact-wrap {
+	padding: 110px 0;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.contact-wrap .fade-text {
+	margin-bottom: 80px;
+}
+
+.flipInX {
+	animation-name: flipInX;
+}
+
+.contact-info {
+	margin-bottom: 40px;
+}
+
+.contact-info h5 {
+	display: table;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.contact-info h5 i {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 2px;
+	left: 0;
+}
+
+.contact-info h5 .phone {
+	background: url(../images/phone.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.contact-info h5 .map-marker {
+	background: url(../images/map-marker.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.contact-info h5 .mail {
+	width: 26px;
+	background: url(../images/mail.png) no-repeat;
+	background-size: 26px auto;
+}
+
+.contact-info .qq_email a {
+	overflow: hidden;
+	text-decoration: none !important;
+	color: #222;
+}
+
+.contact-info p {
+	width: 85%;
+	line-height: 22px;
+	margin: 30px auto 0;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: center;
+	color: #3d3d3d;
+}
+
+footer {
+	padding: 55px 0;
+	background: #222;
+	position: relative;
+	z-index: 1;
+}
+
+footer .copy {
+	margin: 0px;
+	font-size: 13px;
+	text-align: center;
+	color: #f1f1f1;
+}
+
+footer .copy a {
+	margin-left: 13px;
+	color: #f1f1f1;
+	text-decoration: none !important;
+}
+
+footer>a,
+footer>a>img {
+	display: block;
+	width: 36px;
+	height: 50px;
+	margin: 0 auto;
+}
